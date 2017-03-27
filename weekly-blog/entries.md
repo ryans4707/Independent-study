@@ -37,5 +37,7 @@ Data Types
 
 ## Takeaways
 
-Knowing some background knowledge on certain things can benefit you. For example, knowing alot about CSS and HTML will definitely help
-me in learning this new topic
+<li>Knowing some background knowledge on certain things can benefit you. For example, knowing alot about CSS and HTML will definitely help
+me in learning this new topic.
+<li> Actually being interactive helps learn much more easily. For example, I have been using CodeAcademy and following every instruction.
+<li> Read everything that can possibly help any missed little detail can be extremely important to what you are trying to learn
