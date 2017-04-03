@@ -9,7 +9,8 @@ different concepts that need to be learned or known:
 Nesting
  <ul> 
  <li> Placing child selectors and properties in a parent selector. For example:<br>
- .container {
+ 
+.container {
  <br>
   text-align: center;
   <br>
@@ -25,6 +26,7 @@ height: $icon-square-length;<br>
 	}<br>
 }
 <br>
+
 
 Variables
 
