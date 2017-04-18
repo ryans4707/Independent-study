@@ -10,7 +10,7 @@ The `&` character will be used when you know that a parent selector will be used
 <br>
 <br>
 SCSS
-```
+```css
 .notecard{ 
   &:hover{ 
       @include transform (rotatey(-180deg));  
@@ -19,7 +19,7 @@ SCSS
   ```
   <br>
   Represents this CSS:
-  ```
+  ```css
   .notecard:hover {
   transform: rotatey(-180deg);
 }
@@ -34,7 +34,7 @@ retype the same groups of code over an over again in your selectors.<br>
 An example of this is:<br>
 <br>
 SASS
-```
+```css
 @mixin backface-visibility {
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
@@ -52,7 +52,7 @@ SASS
 ```
 <br>
 CSS 
-```
+```css
 .notecard .front, .notecard .back {
   width: 100%;
   height: 100%;
@@ -67,7 +67,7 @@ CSS
 ```
 
 Mixins can also take in arguments. For example
-```
+```css
 @mixin transform($transformation) {
   transform: $transformation;
   -webkit-transform: $transformation;

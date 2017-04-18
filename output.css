@@ -1,3 +1,6 @@
-
+body {
+  background: blue; }
+  body h1 {
+    color: red; }
 
 /*# sourceMappingURL=output.css.map */
