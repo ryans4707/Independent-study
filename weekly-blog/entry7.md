@@ -1,4 +1,4 @@
-# Entry 6:  Start of My Product
+# Entry 7:  Start of My Product
 
 After seeing the feedback that Mr.Mueller provided me for my last entry, I decided 
 that I would just create a website that would inform incomming freshmen or kids 
