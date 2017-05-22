@@ -1,57 +1,67 @@
-.notecard {
-  width: 300px;
-  height: 180px;
-  border: 1px solid black;
-  display: inline-block;
-  margin: 20px;
-  font-family: Roboto, sans-serif;
-  box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.2);
-  transform-style: preserve-3d;
-  -moz-transform-style: preserve-3d;
-  -o-transform-style: preserve-3d;
-  -ms-transform-style: preserve-3d;
-  -webkit-transform-style: preserve-3d;
-  transition: 0.4s;
-  -webkit-transition: 0.4s;
-  -moz-transition: 0.4s;
-  -o-transition: 0.4s; }
-  .notecard:hover {
-    transform: rotatey(-180deg);
-    -webkit-transform: rotatey(-180deg);
-    -moz-transform: rotatey(-180deg);
-    -ms-transform: rotatey(-180deg);
-    -o-transform: rotatey(-180deg); }
-  .notecard .front, .notecard .back {
-    width: 100%;
-    height: 100%;
-    position: absolute; }
-  .notecard .front {
-    z-index: 3;
-    font-size: 20px; }
-    .notecard .front .word {
-      display: block;
+body {
+  background: #333; }
+  body .navbar-brand {
+    font-family: Lobster;
+    font-size: 40px;
+    padding-bottom: 50px; }
+  body .nav {
+    font-family: Bitter; }
+  body ul {
+    height: 10px; }
+  body #pacman {
+    width: 0px;
+    height: 0px;
+    border-right: 60px solid transparent;
+    border-top: 50px solid yellow;
+    border-left: 50px solid yellow;
+    border-bottom: 50px solid yellow;
+    border-radius: 50px;
+    position: absolute;
+    animation: pacman-move 5s infinite;
+    animation-delay: 2s;
+    animation-direction: alternate;
+    animation-timing-function: linear; }
+  body #cover {
+    width: 50px;
+    height: 110px;
+    position: absolute;
+    left: 0px;
+    background-color: #333;
+    animation-name: cover-move;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; }
+  body h1 {
+    font: 250% "Comic Sans MS", cursive, sans-serif center;
+    color: #1E90FF;
+    text-align: center; }
+  body #subheader {
+    background-image: url(School-21.jpg);
+    height: 200px; }
+    body #subheader h2 {
+      color: white;
+      font: "Comic Sans MS", cursive, sans-serif center;
+      text-decoration: underline;
       text-align: center;
-      position: relative;
-      top: 40%; }
-      .notecard .front .word:hover {
-        color: red; }
-  .notecard .back {
-    z-index: 1;
-    word-wrap: break-word;
-    line-height: 1.6;
-    transform: rotatey(-180deg);
-    -webkit-transform: rotatey(-180deg);
-    -moz-transform: rotatey(-180deg);
-    -ms-transform: rotatey(-180deg);
-    -o-transform: rotatey(-180deg); }
-    .notecard .back .definition {
-      width: 100%;
-      height: 100%;
-      background: repeating-linear-gradient(to bottom, white, white 14%, blue 1%, white 15%); }
-      .notecard .back .definition .photo {
-        content: url(titanosaur.jpg.jpg);
-        object-fit: cover;
-        width: 60%;
-        margin: 0px auto; }
+      position: absolute;
+      top: 200px;
+      left: 35%; }
+  body #Freshmen {
+    text-align: center; }
+  body #Junior {
+    text-align: center; }
+
+@keyframes pacman-move {
+  0% {
+    left: 0; }
+  100% {
+    left: 100%; } }
+@keyframes cover-move {
+  0% {
+    width: 0; }
+  100% {
+    width: 100%; } }
 
 /*# sourceMappingURL=output.css.map */
